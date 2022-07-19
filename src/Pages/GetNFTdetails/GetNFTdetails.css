@@ -1,0 +1,69 @@
+.market-place{
+    /* width:100vw;
+    height: 100vh; */
+    font-family: 'Lato', sans-serif;
+    /* position: fixed */
+}
+.row{
+    margin:0;
+    width: 100%;
+}
+.col-md-12{
+    padding:0;
+}
+.market-place .header{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #313131;
+}
+
+.market-place .custom-card-body{
+    width:90%;
+    position: relative;
+    border-radius: 5px;
+    color:#3b3b3b;
+    
+    padding:1rem;
+    /* overflow-y: scroll; */
+    margin-bottom: 1rem;
+}
+
+.menu-hover{
+    border-bottom:1px solid #2C2C2D;
+    font-size:.8rem;
+    cursor:pointer;
+    border-bottom:1px solid #2C2C2D;
+}
+.menu-hover:hover{
+background-color: #2C2C2D;
+}
+
+.market-place .form-control{
+    color: #2C2C2D;
+}
+
+.market-place .mt-5{
+    margin-top: 1rem !important;
+}
+
+.market-place .text-info{
+    color: #2C2C2D;
+}
+
+.market-place .btn{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.biddingPlace-Card{
+    background-color: #bcc0c0;
+    box-shadow: 4px 3px 7px grey;
+}
+
+.getNFTdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
